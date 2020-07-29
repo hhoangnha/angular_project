@@ -1,0 +1,230 @@
+#menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#menu>a {
+    padding-left: 150px;
+    color: yellowgreen;
+}
+
+#menu div ul li {
+    margin-left: 20px;
+}
+
+#menu div ul li a:hover {
+    color: yellowgreen;
+}
+
+#login-right {
+    padding-right: 55px;
+}
+
+#banner-gioithieu {
+    width: 100%;
+    height: 200px;
+    background-image: url('../images/unnamed.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-gioithieu h1 {
+    color: yellowgreen;
+}
+
+#content-gioithieu1 h1 {
+    color: yellowgreen;
+    text-align: center;
+}
+
+#content-gioithieu2 {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../images/unnamed.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content1>div>div>h1 {
+    font-family: Verdana;
+    color: yellowgreen;
+}
+
+#logo {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/cover-bai-kiem-tra-online-2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content2>h1 {
+    font-family: Verdana;
+    color: yellowgreen;
+}
+
+#content3 h3 {
+    color: yellowgreen;
+}
+
+#content4 {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url('../images/web-design-2038872_1920.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content5 h1 {
+    color: yellowgreen;
+    font-family: Verdana;
+    text-align: center;
+}
+
+#content4 div div:hover {
+    color: yellowgreen;
+    width: 101%;
+}
+
+.footer {
+    background-color: #101010;
+    color: white;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer h1 {
+    color: yellowgreen;
+    font-size: 55px;
+}
+
+.footer div p a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer div p a:hover {
+    color: yellowgreen;
+    font-family: Verdana;
+}
+/*
+.thumb {
+    z-index: 2
+}
+
+.card-body {
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px #f2f2f2!important;
+    padding: 12px
+}
+
+
+*/
+.card-body {
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px #f2f2f2!important;
+    padding: 12px;
+    height:80px;
+}
+.card {
+    
+    margin-bottom: 10px;
+    
+}
+
+#star {
+    color: #f9bf08!important;
+    font-size: 15px!important;
+}
+
+/* .badge {
+    position: absolute;
+    display: block;
+    width: 70%;
+    padding: 2px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    top: 7px;
+    left: 10px
+}
+*/
+
+.card-title {
+    color: black;
+}
+
+.card-title:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+#accordion{
+    box-shadow:0 0 1px lightgray;
+    border-radius:5px;
+    padding:5px;
+    position:relative;
+    top:-10px;
+}
+.title{
+    color: yellowgreen;
+    text-align: center;
+}
+#accordion > aside.col-sm-3{
+    padding: 15px;
+    
+}
+
+#accordion > article.col-sm-9{
+    padding: 15px;
+    
+}
+
+
+.end {
+    background-color: #f2f2f2;
+    padding: 15px
+}
+
+.end small {
+    color: grey
+}
+
+.content {
+    background-color: #BBCCDD;
+    padding: 30px
+}
+
+#content-lienhe1>h2 {
+    color: yellowgreen;
+}
+
+#content-lienhe1 div div p a {
+    color: black;
+    text-decoration: none;
+}
+
+#content-lienhe1 div div p a:hover {
+    color: yellowgreen;
+}

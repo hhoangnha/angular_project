@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M IT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div class="">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu">
+            <a class="navbar-brand" href="#">FPT Polytechnic</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="baitest.html">Bài test</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lienhe.html">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gopy.html">Góp ý</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="hoidap.html">Hỏi đáp</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-right">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Tìm môn thi ">
+                        <button class="btn btn-success" type="submit">Tìm kiếm</button>
+                    </form>
+                    <li class="nav-item dropdown" id="login-right">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                          Đăng nhập
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="login.html">Đăng ký</a>
+                            <a class="dropdown-item" href="login.html">Đăng nhập</a>
+                            <a class="dropdown-item" href="resetPassword.html">Quên mật khẩu</a>
+                            <hr>
+                            <a class="dropdown-item" href="login.html">Đăng xuất</a>
+                            <a class="dropdown-item" href="resetPassword.html">Đổi mật khẩu</a>
+                            <a class="dropdown-item" href="taikhoan.html">Cập nhật tài khoản</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="" id="banner-gioithieu">
+            <div class="">
+                <h1>Trang chủ / Hỏi Đáp</h1>
+            </div>
+        </div>
+        <br> <br> <br>
+
+        <div class="container-fluid" id="content-gioithieu1">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/web-design-2038872_1920.jpg" width="100%">
+                </div>
+                <div class="col-sm-6" id="content-lienhe1">
+                    <h2 class="text-center">ONLINE TRAINING</h2> <br>
+                    <hr> <br>
+                    <div class="">
+                        <h2 class="text-center">HÃY ĐẶT CÂU HỎI CHO CHÚNG TÔI</h2>
+                        <br>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Họ tên">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="inputEmail4" placeholder="Số điện thoại">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="inputPassword4" placeholder="Địa chỉ">
+                                </div>
+                            </div>
+                            <textarea name="" id="" class="form-control" cols="30" rows="4"></textarea>
+                            <br>
+                            <button type="button" class="btn btn-success btn-block">GỬI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br> <br> <br>
+
+        <div class="container-fluid" id="content-gioithieu2">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="images/working-on-a-laptop-outside-on-sunny-evening-1080x720.jpg" width="100%">
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/woman-planning-her-calendar-1080x720.jpg" width="100%">
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/woman-business-office-meeting-1080x720.jpg" width="100%">
+                </div>
+                <div class="col-sm-3">
+                    <img src="images/touchpad-on-laptop-1080x720.jpg" width="100%">
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <div class="footer container-fluid">
+            <div class="row" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <div class="col-sm-3">
+                    <h1>FPT Polytechnic</h1>
+                    <h2>ONLINE TRAINING</h2>
+                </div>
+                <div class="col-sm-3">
+                    <h3>LIÊN KẾT</h3> <br>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 17 17" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                        </svg> Học tập
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 17 17" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg> Luyện tập
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 17 17" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg> Cuộc thi
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 17 17" class="bi bi-caret-right-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                            </svg> Trò chơi
+                        </a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>LIÊN HỆ</h3> <br>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                            </svg> 288-Nguyễn Văn Linh-An Khánh-Ninh Kiều-Cần Thơ
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                            </svg> 0123456789
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                            </svg> mitgroup@gmail.com
+                        </a>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>ĐĂNG KÝ</h3> <br>
+                    <p>Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Nhập địa chỉ email">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" type="submit">Submit</button>
+                        </div>
+                    </div>
+                    <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                </div> <br> <br>
+                <div class="col-sm-12 text-center">© All rights reserved. Thiết kế website </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    AOS.init();
+</script>
+
+</html>
